@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+
+body {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+	color:grey;
+	background:rgb(243, 228, 12);
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact {
+	background:white;
+	padding:25px;
+	margin:50px 0;
+}
+
+
+#contact h2 {
+	margin:5px 0 15px;
+	font-size:30px;
+    text-align:center;
+}
+
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+    </style>
+</head>
+<body>
+	<h6>3.Design a contact us form with all fields as required.</h6>
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h2>Contact us </h2>
+            <input placeholder="First name" type="text" name="First name" required>
+            <input placeholder="Last name" type="text" name="Last name" required>
+            <input placeholder="Email Address" type="email"  name="Email Address" required>
+            <input placeholder="Phone Number" type="tel" name="Phone Number" required>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </form>
+    </div>
+	<a href="https://adoring-villani-a0261a.netlify.app/">8.Use the table tag to design given image Click here</a>
+</body>
+</html>
